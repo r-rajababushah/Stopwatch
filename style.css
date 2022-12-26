@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+#time {
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.digit {
+    font-size: 100px;
+    color: #fff;
+}
+
+.txt {
+    font-size: 30px;
+    color: #fffcd6;
+}
+
+#button {
+    margin-top: 50px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 15px;
+    margin: 0px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .2s;
+    color: white;
+    font-weight: 500;
+}
+
+#start {
+    background-color: #009779;
+}
+
+#stop {
+    background-color: #0e85fc;
+}
+
+#reset {
+    background-color: #c91400;
+}
